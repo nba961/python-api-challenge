@@ -23,12 +23,13 @@ To add only the WeatherPy.ipynb file to GitHub, for example, type git add Weathe
 
 Before adding your files to GitHub, add api_keys.py to the .gitignore file by following these steps:
 
+# Adding config.py file.
+api_keys.py
+
 Open your python-api-challenge GitHub folder in VS Code.
 
 Open the .gitignore file and type the following code on the first line:
 
-# Adding config.py file.
-api_keys.py
 In the command line, type git status and press Enter. The output should indicate that the .gitignore file has been modified and the api_keys.py file is untracked.
 
 Use git add, git commit, and git push to commit the modifications to the .gitignore, WeatherPy.ipynb and VacationPy.ipynb files to GitHub.
